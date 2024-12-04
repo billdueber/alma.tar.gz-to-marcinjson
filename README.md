@@ -15,6 +15,10 @@ java -jar /path/to/alma.tar.gz-to-marcinxml /path/to/alma/*.tar.gz
 
 ```
 
+## Building the .jar file
+
+`mvn package assembly:single`
+
 ## Performance
 
 It's not ridiculously fast (e.g., it doesn't use Jackson custom serializers like it should and isn't even multi-threaded), 
